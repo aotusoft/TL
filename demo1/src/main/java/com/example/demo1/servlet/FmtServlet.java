@@ -1,14 +1,9 @@
-package com.day.day03;
+package com.example.demo1.servlet;
 
-import javax.servlet.ServletException;
-import javax.servlet.annotation.WebServlet;
-import javax.servlet.http.HttpServlet;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import java.io.*;
+import jakarta.servlet.ServletException;
+
+import java.io.IOException;
 import java.util.Date;
-
-
 
 @WebServlet(name = "FmtServlet", value = "/fmt")
 public class FmtServlet extends HttpServlet {
