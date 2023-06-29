@@ -10,6 +10,7 @@
         <module name="CookieAndSession" />
         <module name="SessionDemo" />
         <module name="Day03" />
+        <module name="FilterDemo" />
         <module name="demo1" />
       </profile>
     </annotationProcessing>
@@ -18,6 +19,7 @@
       <module name="CookieDemo" target="1.8" />
       <module name="Day03" target="1.8" />
       <module name="demo1" target="1.8" />
+      <module name="FilterDemo" target="1.8" />
       <module name="SessionDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

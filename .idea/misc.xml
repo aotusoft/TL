@@ -5,6 +5,7 @@
     <file type="web" url="file://$PROJECT_DIR$/CookieDemo" />
     <file type="web" url="file://$PROJECT_DIR$/Day03" />
     <file type="web" url="file://$PROJECT_DIR$/demo1" />
+    <file type="web" url="file://$PROJECT_DIR$/FilterDemo" />
     <file type="web" url="file://$PROJECT_DIR$/SessionDemo" />
   </component>
   <component name="MavenProjectsManager">
@@ -15,6 +16,7 @@
         <option value="$PROJECT_DIR$/CookieAndSession/pom.xml" />
         <option value="$PROJECT_DIR$/CookieDemo/pom.xml" />
         <option value="$PROJECT_DIR$/SessionDemo/pom.xml" />
+        <option value="$PROJECT_DIR$/FilterDemo/pom.xml" />
       </list>
     </option>
   </component>
