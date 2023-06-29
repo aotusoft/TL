@@ -18,7 +18,7 @@ public class FmtServlet extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html");
         response.setCharacterEncoding("UTF-8");
-        request.setAttribute("date", new Date());
+        request.setAttribute("today", new Date());
         request.setAttribute("n",1234567.123);
         request.setAttribute("p",1234567.123);
         request.getRequestDispatcher("/fmt.jsp").forward(request,response);
