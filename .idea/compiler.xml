@@ -7,10 +7,12 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="demo1" />
+        <module name="CookieAndSession" />
         <module name="Day03" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="CookieAndSession" target="1.8" />
       <module name="Day03" target="1.8" />
       <module name="demo1" target="1.8" />
     </bytecodeTargetLevel>
