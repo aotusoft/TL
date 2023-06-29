@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="CookieDemo" />
         <module name="CookieAndSession" />
+        <module name="SessionDemo" />
         <module name="Day03" />
         <module name="demo1" />
       </profile>
@@ -17,6 +18,7 @@
       <module name="CookieDemo" target="1.8" />
       <module name="Day03" target="1.8" />
       <module name="demo1" target="1.8" />
+      <module name="SessionDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
