@@ -1,4 +1,4 @@
-package com.cookieandsession.cookie; /**
+package com.cookiedemo; /**
  * @Author: nekotako
  * @Date: 2023/6/29 10:15
  */
@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.URLEncoder;
-import java.util.Date;
 
 @WebServlet(name = "SetCookieServlet", value = "/setCookie")
 public class SetCookieServlet extends HttpServlet {
@@ -29,7 +28,17 @@ public class SetCookieServlet extends HttpServlet {
         Cookie age = new Cookie("age", "18");
         Cookie sex = new Cookie("sex",URLEncoder.encode("男","UTF-8"));
         Cookie login = new Cookie("login", "0");
-        name.setMaxAge(99999);
+        Cookie[] cookies = request.getCookies();
+        for (Cookie cookie : cookies) {
+            if (cookie.getName().equals("login")) {
+                if (cookie.getValue().equals("0")) {
+                    response.getWriter().println("用户首次登录");
+                } else {
+                    response.getWriter().println("用户首次登录");
+                }
+            }
+            break;
+        }
         response.addCookie(name);
         response.addCookie(age);
         response.addCookie(sex);

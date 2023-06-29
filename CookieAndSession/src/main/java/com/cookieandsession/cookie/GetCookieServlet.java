@@ -12,6 +12,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.net.URLDecoder;
+import java.util.Date;
 
 @WebServlet(name = "GetCookieServlet", value = "/getCookie")
 public class GetCookieServlet extends HttpServlet {
@@ -25,8 +26,9 @@ public class GetCookieServlet extends HttpServlet {
         response.setContentType("text/html;charset=UTF-8");
         response.setCharacterEncoding("UTF-8");
         Cookie[] cookies = request.getCookies();
-        for (Cookie c : cookies){
-            response.getWriter().println(c.getName()+"-----"+ URLDecoder.decode(c.getValue(),"UTF-8")+"</br>");
+
+        for (Cookie c : cookies) {
+            response.getWriter().println(c.getName() + "-----" + URLDecoder.decode(c.getValue(), "UTF-8") + "</br>");
         }
     }
 }
