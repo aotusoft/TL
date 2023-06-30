@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="LoginFilter:war">
+    <output-path>$PROJECT_DIR$/LoginFilter/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>LoginFilter</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="LoginFilter-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="LoginFilter:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -6,12 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="CookieDemo" />
         <module name="CookieAndSession" />
         <module name="SessionDemo" />
         <module name="Day03" />
         <module name="FilterDemo" />
+        <module name="CookieDemo" />
+        <module name="LoginFilter" />
         <module name="demo1" />
+        <module name="ListenerDomo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +22,8 @@
       <module name="Day03" target="1.8" />
       <module name="demo1" target="1.8" />
       <module name="FilterDemo" target="1.8" />
+      <module name="ListenerDomo" target="1.8" />
+      <module name="LoginFilter" target="1.8" />
       <module name="SessionDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
