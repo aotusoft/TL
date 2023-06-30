@@ -6,6 +6,7 @@
     <file type="web" url="file://$PROJECT_DIR$/Day03" />
     <file type="web" url="file://$PROJECT_DIR$/demo1" />
     <file type="web" url="file://$PROJECT_DIR$/FilterDemo" />
+    <file type="web" url="file://$PROJECT_DIR$/KeywordManagement" />
     <file type="web" url="file://$PROJECT_DIR$/ListenerDomo" />
     <file type="web" url="file://$PROJECT_DIR$/LoginFilter" />
     <file type="web" url="file://$PROJECT_DIR$/SessionDemo" />
@@ -21,6 +22,7 @@
         <option value="$PROJECT_DIR$/FilterDemo/pom.xml" />
         <option value="$PROJECT_DIR$/LoginFilter/pom.xml" />
         <option value="$PROJECT_DIR$/ListenerDomo/pom.xml" />
+        <option value="$PROJECT_DIR$/KeywordManagement/pom.xml" />
       </list>
     </option>
   </component>
