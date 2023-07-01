@@ -3,8 +3,6 @@ package com.mybatis;
 import org.junit.*;
 import org.junit.Test;
 
-import java.io.IOException;
-import java.io.InputStream;
 
 /**
  * @Author: nekotako

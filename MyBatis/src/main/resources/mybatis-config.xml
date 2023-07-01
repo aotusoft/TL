@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE configuration
-  PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
-  "http://mybatis.org/dtd/mybatis-3-config.dtd">
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
 <configuration>
     <properties resource="jdbc.properties"/>
-<!--核心配置文件-->
+
+    <!--  实体类别名  -->
+    <!--  在Mapper里简化resultType内容  -->
+    <typeAliases>
+        <!--type 设置全类名-->
+        <typeAlias type="com.mybatis.pojo.User" alias="User"/>
+    </typeAliases>
+
+    <!--核心配置文件-->
     <!--配置jdbc环境-->
     <environments default="learn">
         <environment id="learn">
@@ -15,11 +23,14 @@
                 <!--配置连接数据库时的信息-->
                 <property name="driver" value="${jdbc.driver}"/>
                 <property name="url" value="${jdbc.url}"/>
-                <property name="driver" value="${jdbc.username}"/>
-                <property name="driver" value="${jdbc.password}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
             </dataSource>
         </environment>
     </environments>
+    <mappers>
+        <mapper resource="mapper/UserMapper.xml"/>
+    </mappers>
 </configuration>
 
 
