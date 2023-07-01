@@ -2,16 +2,35 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<!--namespace要求名称全局唯一-->
-<mapper namespace="User">
-<!--  id起名字  -->
-<!--  resultType配置返回值类型  -->
-<!--  返回值类型不写集合 只写泛型  -->
 
-<!--    <select id="getAll" resultType="com.mybatis.pojo.User">-->
-<!--  使用别名  -->
-    <select id="getAll" resultType="User">
-        select *
-        from user;
-    </select>
+<!--
+
+利用接口代理
+    1 需要UserMapper.xml
+    2 mybatis-config.xml中添加映射配置
+
+-->
+
+<mapper namespace="com.mybatis.dao.UserDao">
+<select id="getAllInfo" resultType="User">
+    select *
+    from user
+</select>
 </mapper>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-package com.mybatis.mapper;
+package com.mybatis.dao;
 
 import com.mybatis.pojo.User;
 
@@ -6,8 +6,8 @@ import java.util.List;
 
 /**
  * @Author: nekotako
- * @Date: 2023/7/1 11:26
+ * @Date: 2023/7/1 14:25
  */
-public interface UserMapper {
+public interface UserDao {
     List<User> getAllInfo();
 }
