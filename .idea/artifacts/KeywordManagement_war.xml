@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="KeywordManagement:war">
+    <output-path>$PROJECT_DIR$/KeywordManagement/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>KeywordManagement</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="KeywordManagement-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="KeywordManagement:war exploded" />
+    </root>
+  </artifact>
+</component>
