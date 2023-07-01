@@ -12,6 +12,7 @@
         <module name="FilterDemo" />
         <module name="KeywordManagement" />
         <module name="CookieDemo" />
+        <module name="MyBatis" />
         <module name="LoginFilter" />
         <module name="demo1" />
         <module name="ListenerDomo" />
@@ -26,6 +27,7 @@
       <module name="KeywordManagement" target="1.8" />
       <module name="ListenerDomo" target="1.8" />
       <module name="LoginFilter" target="1.8" />
+      <module name="MyBatis" target="1.8" />
       <module name="SessionDemo" target="1.8" />
     </bytecodeTargetLevel>
   </component>
