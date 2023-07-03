@@ -29,8 +29,10 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="mapper/User.xml"/>
-        <mapper resource="mapper/UserMapper.xml"/>
+        <!--        <mapper resource="mapper/User.xml"/>-->
+        <!--        <mapper resource="mapper/UserMapper.xml"/>-->
+        <!--   使用包名扫描的方法  -->
+        <package name="com.mybatis.pageoffset.mapper"/>
     </mappers>
 </configuration>
 

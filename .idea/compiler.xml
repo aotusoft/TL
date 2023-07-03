@@ -20,17 +20,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="CookieAndSession" target="1.8" />
-      <module name="CookieDemo" target="1.8" />
-      <module name="Day03" target="1.8" />
-      <module name="demo1" target="1.8" />
-      <module name="FilterDemo" target="1.8" />
-      <module name="KeywordManagement" target="1.8" />
-      <module name="ListenerDomo" target="1.8" />
-      <module name="LoginFilter" target="1.8" />
-      <module name="MyBatis" target="1.8" />
+      <module name="CookieAndSession" target="11" />
+      <module name="CookieDemo" target="11" />
+      <module name="Day03" target="11" />
+      <module name="demo1" target="1.5" />
+      <module name="FilterDemo" target="11" />
+      <module name="KeywordManagement" target="11" />
+      <module name="ListenerDomo" target="11" />
+      <module name="LoginFilter" target="11" />
+      <module name="MyBatis" target="11" />
       <module name="PageOffset" target="11" />
-      <module name="SessionDemo" target="1.8" />
+      <module name="SessionDemo" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>

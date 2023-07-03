@@ -14,11 +14,23 @@ public interface UserMapper {
     int getCount();
 
     //获取信息
+
     /**
-     *
-     * @param offset Mysql limit 偏移起始量
+     * @param offset   Mysql limit 偏移起始量
      * @param pageSize Mysql limit 每页显示条数
      * @return
      */
-    List<User> getAllInfo(@Param("offset") int offset,@Param("pageSize") int pageSize);
+    List<User> getAllInfo(@Param("offset") int offset, @Param("pageSize") int pageSize);
+
+    /**
+     * 根据不同参数获取信息
+     *
+     * @param id       UserID
+     * @param username username
+     * @param password password
+     * @return
+     */
+    List<User> getAllInfo(@Param("id") int id,
+                          @Param("username") String username,
+                          @Param("password") String password);
 }
