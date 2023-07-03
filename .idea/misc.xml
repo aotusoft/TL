@@ -10,6 +10,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ListenerDomo" />
     <file type="web" url="file://$PROJECT_DIR$/LoginFilter" />
     <file type="web" url="file://$PROJECT_DIR$/MyBatis" />
+    <file type="web" url="file://$PROJECT_DIR$/PageOffset" />
     <file type="web" url="file://$PROJECT_DIR$/SessionDemo" />
   </component>
   <component name="MavenProjectsManager">
@@ -25,6 +26,7 @@
         <option value="$PROJECT_DIR$/ListenerDomo/pom.xml" />
         <option value="$PROJECT_DIR$/KeywordManagement/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/PageOffset/pom.xml" />
       </list>
     </option>
   </component>

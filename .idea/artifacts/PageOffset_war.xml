@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="PageOffset:war">
+    <output-path>$PROJECT_DIR$/PageOffset/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>PageOffset</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="PageOffset-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="PageOffset:war exploded" />
+    </root>
+  </artifact>
+</component>
