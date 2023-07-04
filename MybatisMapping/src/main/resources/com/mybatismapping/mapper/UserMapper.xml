@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.mybatismapping.mapper.UserMapper">
+
+    <!--
+        当字段名和属性名不一致，不能自动映射时，需要配置resultMap
+        column：字段名   property：实体属性名
+    -->
+
+    <resultMap id="userList" type="User">
+        <id column="id" property="id"/>
+        <result column="birth" property="date"/>
+    </resultMap>
+
+    <select id="getAllInfo" resultMap="userList">
+        select *
+        from user
+        limit 1,10
+    </select>
+</mapper>
