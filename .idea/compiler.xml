@@ -13,24 +13,12 @@
         <module name="KeywordManagement" />
         <module name="CookieDemo" />
         <module name="MyBatis" />
+        <module name="MybatisMapping" />
         <module name="LoginFilter" />
         <module name="demo1" />
         <module name="ListenerDomo" />
         <module name="PageOffset" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="CookieAndSession" target="11" />
-      <module name="CookieDemo" target="11" />
-      <module name="Day03" target="11" />
-      <module name="demo1" target="1.5" />
-      <module name="FilterDemo" target="11" />
-      <module name="KeywordManagement" target="11" />
-      <module name="ListenerDomo" target="11" />
-      <module name="LoginFilter" target="11" />
-      <module name="MyBatis" target="11" />
-      <module name="PageOffset" target="11" />
-      <module name="SessionDemo" target="11" />
-    </bytecodeTargetLevel>
   </component>
 </project>

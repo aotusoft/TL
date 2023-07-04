@@ -27,4 +27,40 @@
             </if>
         </where>
     </select>
+    <!--choose foreach trim -->
+
+    <!--choose 选择语句 相当于Java中的switch语句-->
+    <!--当when里面的条件都不满足时 执行otherwise里的语句-->
+    <select id="chooseTest" resultType="User">
+        select * from user
+        <where>
+            <choose>
+                <when test="id!=null or id!=0">
+                    id=#{id}
+                </when>
+                <when test="username!=null and username != ''">
+                    and username=#{username}
+                </when>
+                <otherwise>
+                    and password = #{password}
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <!--foreach 循环语句 适用于遍历数组 集合 Map中的值-->
+    <!--collection 给定的集合-->
+    <!--index Map中的key值-->
+    <!--item 集合中的值 Map中的value值-->
+    <!--open 拼sql中的左括号-->
+    <!--separator 多个值间的分隔符-->
+    <!--close 拼sql中的右括号-->
+    <select id="foreachTest" resultType="User">
+        select * from user
+<!--        <where>-->
+<!--            <if test="pwdList!=null and pwdList.size()!=0">-->
+<!--            and password in-->
+<!--                 <foreach collection="List"-->
+<!--            </if>-->
+<!--        </where>-->
+    </select>
 </mapper>

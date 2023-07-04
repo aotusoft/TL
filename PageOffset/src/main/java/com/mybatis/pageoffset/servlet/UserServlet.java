@@ -1,4 +1,5 @@
-package com.mybatis.pageoffset.servlet; /**
+package com.mybatis.pageoffset.servlet;
+/**
  * @Author: nekotako
  * @Date: 2023/7/3 16:30
  */
@@ -37,6 +38,7 @@ public class UserServlet extends HttpServlet {
         //设置当前页数
         pageOffsetUtil.setCurrentPage(2);
         pageOffsetUtil.setTotalCount(count);
+        System.out.println(pageOffsetUtil.getTotalPage());
         if (pageIndex < 1) {
             pageOffsetUtil.setCurrentPage(1);
         } else if (pageIndex > pageOffsetUtil.getTotalPage()) {

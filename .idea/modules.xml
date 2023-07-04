@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CookieAndSession/CookieAndSession.iml" filepath="$PROJECT_DIR$/CookieAndSession/CookieAndSession.iml" />
-      <module fileurl="file://$PROJECT_DIR$/CookieDemo/CookieDemo.iml" filepath="$PROJECT_DIR$/CookieDemo/CookieDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Day03/Day03.iml" filepath="$PROJECT_DIR$/Day03/Day03.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FilterDemo/FilterDemo.iml" filepath="$PROJECT_DIR$/FilterDemo/FilterDemo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/KeywordManagement/KeywordManagement.iml" filepath="$PROJECT_DIR$/KeywordManagement/KeywordManagement.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ListenerDomo/ListenerDomo.iml" filepath="$PROJECT_DIR$/ListenerDomo/ListenerDomo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/LoginFilter/LoginFilter.iml" filepath="$PROJECT_DIR$/LoginFilter/LoginFilter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/MyBatis/MyBatis.iml" filepath="$PROJECT_DIR$/MyBatis/MyBatis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/PageOffset/PageOffset.iml" filepath="$PROJECT_DIR$/PageOffset/PageOffset.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SessionDemo/SessionDemo.iml" filepath="$PROJECT_DIR$/SessionDemo/SessionDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/TL.iml" filepath="$PROJECT_DIR$/.idea/TL.iml" />
-      <module fileurl="file://$PROJECT_DIR$/demo1/demo1.iml" filepath="$PROJECT_DIR$/demo1/demo1.iml" />
     </modules>
   </component>
 </project>

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/CookieAndSession" />
     <file type="web" url="file://$PROJECT_DIR$/CookieDemo" />
@@ -10,6 +11,7 @@
     <file type="web" url="file://$PROJECT_DIR$/ListenerDomo" />
     <file type="web" url="file://$PROJECT_DIR$/LoginFilter" />
     <file type="web" url="file://$PROJECT_DIR$/MyBatis" />
+    <file type="web" url="file://$PROJECT_DIR$/MybatisMapping" />
     <file type="web" url="file://$PROJECT_DIR$/PageOffset" />
     <file type="web" url="file://$PROJECT_DIR$/SessionDemo" />
   </component>
@@ -27,6 +29,7 @@
         <option value="$PROJECT_DIR$/KeywordManagement/pom.xml" />
         <option value="$PROJECT_DIR$/MyBatis/pom.xml" />
         <option value="$PROJECT_DIR$/PageOffset/pom.xml" />
+        <option value="$PROJECT_DIR$/MybatisMapping/pom.xml" />
       </list>
     </option>
   </component>
