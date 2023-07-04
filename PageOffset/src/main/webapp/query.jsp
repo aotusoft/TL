@@ -23,35 +23,22 @@
         编号：<input type="text" name="id">
         用户名：<input type="text" name="username">
         密码：<input type="text" name="password">
-        <br>
         <input type="submit" class="btn btn-primary" value="查询">
     </form>
-    <br>
-<%--    <form action="<%=request.getContextPath()%>/user" method="post">--%>
-<%--        <label >编号： <input type="text" name="id" class=""/></label>--%>
-<%--        <label >用户名：<input type="text" name="username" class=""/></label>--%>
-<%--        <label >密码：<input type="text" name="password" class=""/></label>--%>
-<%--        <br>--%>
-<%--        <input type="submit" class="btn btn-primary">--%>
-<%--    </form>--%>
-    <br>
+    <p></p>
     <table class="table">
         <tr>
             <td>编号</td>
             <td>用户名</td>
             <td>密码</td>
         </tr>
-        <c:forEach var="user" items="${page.list}">
+        <c:forEach var="user" items="${list}">
             <tr>
                 <td>${user.id}</td>
                 <td>${user.username}</td>
                 <td>${user.password}</td>
             </tr>
         </c:forEach>
-        <a class="btn btn-info" href="<%=request.getContextPath()%>/user?pageIndex=1">首页</a>
-        <a class="btn btn-info" href="<%=request.getContextPath()%>/user?pageIndex=${page.currentPage-1}">上一页</a>
-        <a class="btn btn-info" href="<%=request.getContextPath()%>/user?pageIndex=${page.currentPage+1}">下一页</a>
-        <a class="btn btn-info" href="<%=request.getContextPath()%>/user?pageIndex=${page.totalPage}">末页</a>
     </table>
 </div>
 

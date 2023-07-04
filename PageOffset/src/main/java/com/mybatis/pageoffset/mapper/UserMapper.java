@@ -25,12 +25,7 @@ public interface UserMapper {
     /**
      * 根据不同参数获取信息
      *
-     * @param id       UserID
-     * @param username username
-     * @param password password
      * @return
      */
-    List<User> getAllInfo(@Param("id") int id,
-                          @Param("username") String username,
-                          @Param("password") String password);
+    List<User> getInfoByParams(User user);
 }
